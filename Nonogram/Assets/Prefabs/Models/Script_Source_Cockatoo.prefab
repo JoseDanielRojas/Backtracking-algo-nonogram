@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1841043634296384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4034823421144116}
+  - component: {fileID: 5640523132971266356}
+  - component: {fileID: 114264395796942348}
+  - component: {fileID: 114832276323256954}
+  - component: {fileID: 114923630444394210}
+  m_Layer: 0
+  m_Name: Script_Source_Cockatoo
+  m_TagString: Picross
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4034823421144116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841043634296384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5640523132971266356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841043634296384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729de3569b1a9014fb7383b826a1dec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numLines: 0
+  numColumns: 0
+--- !u!114 &114264395796942348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841043634296384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9e4b08d14853b41a28f9f3d675832d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  square_step: 0
+  cross: {fileID: 0}
+--- !u!114 &114832276323256954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841043634296384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8baf19e4949a5624b8b79577f51f8ec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  square_int: 
+  square_int_result: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  pourcentage_completion: 0
+  cross: {fileID: 2800000, guid: 9fcd691905cd6084e9f8ca38a796e4ea, type: 3}
+  ai_mode_activated: 1
+  picross_level: 0
+  numLines: 0
+  numColumns: 0
+--- !u!114 &114923630444394210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841043634296384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2a0a483b23e4849b57a93341ce25f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  black_line: {fileID: 1619920345840258, guid: cc2dee9958b93654db3ff9313254b25d, type: 3}
+  black_column: {fileID: 1711254862783882, guid: 7cf564fb42b24bc41b924531fd48bc54,
+    type: 3}
+  line_numbers: {fileID: 1553870599901904, guid: 991547f5824f27f48a2366898019c7fb,
+    type: 3}
+  column_numbers: {fileID: 1879311707530730, guid: 6662378d469b0d04587fa14d717b5242,
+    type: 3}
+  square: {fileID: 1454830703408422, guid: e1444b0fc489e6642bfce052ea30b8dc, type: 3}
+  line_column_parent: {fileID: 0}
+  square_parent: {fileID: 0}
